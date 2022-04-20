@@ -1,5 +1,6 @@
 <script>
-  import Button from '$components/Button/Button.svelte'
+  
+import Progressbar from '$lib/components/Progressbar/Progressbar.svelte';
 </script>
 
-<Button label="Button" />
+<Progressbar progress={10} />
